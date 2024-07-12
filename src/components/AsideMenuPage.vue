@@ -19,7 +19,6 @@ const pageView = usePageView()
   </div>
 </template>
 <style>
-
 #aside_Menu_Page {
   position: absolute;
   left: 5vw;
@@ -35,6 +34,4 @@ p {
   padding: 5px;
   margin-left: 10px;
 }
-
-
 </style>

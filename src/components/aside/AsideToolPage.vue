@@ -1,5 +1,3 @@
-
-
 <template>
   <div>
     <h2>C'est un lieu pour venir en aide aux associations</h2>

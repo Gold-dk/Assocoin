@@ -37,7 +37,6 @@ export const usePageView = defineStore('pageview', {
   getters: {
     getPageMain: (state) => selectPage[state.namePage]['main'],
     getPageAside: (state) => selectPage[state.namePage]['aside']
-
   },
   actions: {
     modify(value: string) {

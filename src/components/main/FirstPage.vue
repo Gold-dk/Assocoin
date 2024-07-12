@@ -1,5 +1,5 @@
 <template>
-  <div id="first_page" >
+  <div id="first_page">
     <h1>ASSOCOIN</h1>
     <h1>Welcome to the new social network</h1>
     <div id="sub_title">

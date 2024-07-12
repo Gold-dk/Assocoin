@@ -7,10 +7,6 @@ const pageStore = usePageView()
 const PageView = computed(() => pageStore.getPageMain)
 
 // access the `store` variable anywhere in the component ✨
-
-
-
-
 </script>
 <template>
   <main class="block">
@@ -36,14 +32,13 @@ main > div {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height:auto;
+  height: auto;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-
 }
 
 .display_none {
@@ -60,4 +55,3 @@ h3 {
   transition: opacity 0.5s ease-in-out;
 }
 </style>
-

@@ -33,10 +33,8 @@ h2,
 h3 {
   text-align: center;
 }
-p{
+p {
   padding: 5px;
   margin-left: 10px;
 }
-
-
 </style>

@@ -5,12 +5,6 @@ import { usePageView } from '@/stores/pageView'
 const pageView = usePageView()
 </script>
 <template>
-  <div>
-
-  </div>
+  <div></div>
 </template>
-<style>
-
-
-
-</style>
+<style></style>
