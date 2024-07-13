@@ -6,11 +6,10 @@ const pageView = usePageView()
 </script>
 <template>
   <div id="aside_Menu_Page" class="block">
-    <p @click="pageView.modify('first')">Home</p>
-    <hr />
-    <h2>C'est un lieu pour</h2>
+    <h2>Menu</h2>
     <hr />
     <div>
+      <p @click="pageView.modify('first')">Home</p>
       <p @click="pageView.modify('don')">les donnateurs</p>
       <p @click="pageView.modify('asso')">les associations</p>
       <p @click="pageView.modify('echange')">les echanges</p>

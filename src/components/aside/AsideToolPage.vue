@@ -2,11 +2,10 @@
   <div>
     <h2>C'est un lieu pour venir en aide aux associations</h2>
     <div>
-      <p>nouveau moyen de renumeration</p>
-      <p>site benevole</p>
-      <p>boutique</p>
-      <p>evenement</p>
-      <p>systemen de paiement</p>
+      <p>Simplifier la mis en place de moyen de donation</p>
+      <p>Simplifier la mise en place de boutique</p>
+      <p>Simplifier la mise en place d'evenement</p>
+      <p>Simplifier les moyen de paiements</p>
     </div>
   </div>
 </template>

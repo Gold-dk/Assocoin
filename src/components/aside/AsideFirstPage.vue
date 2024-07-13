@@ -1,10 +1,8 @@
-<script setup lang="ts">
-import { usePageView } from '@/stores/pageView'
 
-// access the `store` variable anywhere in the component ✨
-const pageView = usePageView()
-</script>
 <template>
-  <div></div>
+  <h2>Home</h2>
+  <div>
+    <p>Presentation</p>
+  </div>
 </template>
-<style></style>
+

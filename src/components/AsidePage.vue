@@ -10,6 +10,8 @@ const PageView = computed(() => pageStore.getPageAside)
 </script>
 <template>
   <div id="aside_page" class="block">
+    <h2>Sommaire</h2>
+    <hr />
     <component :is="PageView" />
   </div>
 </template>
