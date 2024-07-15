@@ -14,15 +14,15 @@ const PageAsideView = computed(() => pageStore.getPageAside)
     <h2>Menu</h2>
     <hr />
     <div class="cursor">
-      <p @click="pageStore.modify('first')">Home</p>
-      <p @click="pageStore.modify('don')">les donnateurs</p>
-      <p @click="pageStore.modify('asso')">les associations</p>
-      <p @click="pageStore.modify('echange')">les echanges</p>
-      <p @click="pageStore.modify('tool')">les outils</p>
+      <p @click="pageStore.modify('Home')">Home</p>
+      <p @click="pageStore.modify('Don')">les donnateurs</p>
+      <p @click="pageStore.modify('Asso')">les associations</p>
+      <p @click="pageStore.modify('Echange')">les echanges</p>
+      <p @click="pageStore.modify('Tool')">les outils</p>
     </div>
   </aside>
-  <main>
-    <component :is="PageView" />
+  <main class="block">
+    <component :is="PageView"/>
   </main>
   <aside id="aside_page" class="block">
       <h2>Sommaire</h2>
@@ -39,10 +39,8 @@ main {
   top: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  display: flex;
-  height: 80vh;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+  padding: 20px;
 }
 
 #aside_page {

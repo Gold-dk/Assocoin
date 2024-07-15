@@ -11,24 +11,24 @@ import DonAside from './aside/Don.vue'
 import EchangeAside from './aside/Echange.vue'
 
 export const selectPage: { [key: string]: any } = {
-  Home: {
-    aside: HomeAside,
-    main: HomeMain
+  "Home": {
+    "aside": HomeAside,
+    "main": HomeMain
   },
-  Asso: {
-    aside: AssoAside,
-    main: AssoMain
+  "Asso": {
+    "aside": AssoAside,
+    "main": AssoMain
   },
-  Tool: {
-    aside: ToolAside,
-    main: ToolMain
+  "Tool": {
+    "aside": ToolAside,
+    "main": ToolMain
   },
-  Don: {
-    aside: DonAside,
-    main: DonMain
+  "Don": {
+    "aside": DonAside,
+    "main": DonMain
   },
-  Echange: {
-    aside: EchangeAside,
-    main: EchangeMain
+  "Echange": {
+    "aside": EchangeAside,
+    "main": EchangeMain
   }
 }
