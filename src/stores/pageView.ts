@@ -1,17 +1,5 @@
 import { defineStore } from 'pinia'
-import { Home } from '@/components/pages'
-
-
-
-
-
-
-const selectPage: { [key: string]: any } = {
-  Home: {
-    aside: Home.aside_div,
-    main: Home.main_div
-  },
-}
+import { selectPage } from '@/components/pages'
 
 export const usePageView = defineStore('pageview', {
   state: () => ({ namePage: 'first' }),

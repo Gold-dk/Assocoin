@@ -1,13 +1,3 @@
-<script setup lang=ts>
-
-  const main_div = document.getElementById("main_block")
-  const asside_div = document.getElementById("asside_block")
-
-  export {main_div, asside_div}
-
-  
-</script>
-
 <template>
   <div id="main_block">
     <h1>ASSOCOIN</h1>
