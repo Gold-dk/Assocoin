@@ -13,3 +13,22 @@ body {
   border-radius: 16px;
   border: 1px solid rgba(255, 200, 255, 0.3);
 }
+
+hr {
+  border-style: dashed;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+p {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.cursor{
+  cursor: pointer;
+}
+

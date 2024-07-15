@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main_part">
     <h2>C'est un lieu pour les associations</h2>
     <div>
       <p>lieu centralise pour les associations</p>
