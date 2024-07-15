@@ -34,14 +34,17 @@ const PageAsideView = computed(() => pageStore.getPageAside)
 <style>
 main {
   width: 40vw;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  height: auto;
+  height: 40vh;
   padding: 20px;
+  overflow-y : scroll;
 }
+
+
 
 #aside_page {
   position: absolute;
