@@ -1,0 +1,10 @@
+/* Works on Firefox */
+* {
+    scrollbar-width: none;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+  

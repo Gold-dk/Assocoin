@@ -6,7 +6,6 @@ const pageStore = usePageView()
 
 const PageView = computed(() => pageStore.getPageMain)
 const PageAsideView = computed(() => pageStore.getPageAside)
-  
 </script>
 
 <template>
@@ -22,30 +21,16 @@ const PageAsideView = computed(() => pageStore.getPageAside)
     </div>
   </aside>
   <main class="block">
-    <component :is="PageView"/>
+    <component :is="PageView" />
   </main>
   <aside id="aside_page" class="block">
-      <h2>Sommaire</h2>
-      <hr />
-      <component :is="PageAsideView" />
+    <h2>Sommaire</h2>
+    <hr />
+    <component :is="PageAsideView" />
   </aside>
 </template>
 
 <style>
-main {
-  width: 40vw;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  height: 40vh;
-  padding: 20px;
-  overflow-y : scroll;
-}
-
-
-
 #aside_page {
   position: absolute;
   right: 5vw;
@@ -65,6 +50,4 @@ main {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
 }
-
-  
 </style>

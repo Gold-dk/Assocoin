@@ -16,6 +16,7 @@ body {
 
 hr {
   border-style: dashed;
+  margin:20px;
 }
 h1,
 h2,
@@ -28,7 +29,33 @@ p {
   margin-left: 10px;
 }
 
-.cursor{
+main {
+  width: 40vw;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  height: 80vh;
+  padding: 20px;
+  margin: 20px;
+  overflow-y: scroll;
+}
+
+article {
+  height: auto;
+}
+
+.cursor {
   cursor: pointer;
 }
+
+.displayOn {
+  display: block;
+}
+
+.displayOff {
+  display: none;
+}
+
 
